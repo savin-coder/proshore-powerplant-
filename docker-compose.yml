@@ -1,0 +1,52 @@
+
+version: "3.8"
+
+services:
+  database:
+    image: mongo:latest
+    hostname: powerplantDB
+    ports:
+      - 27017:27017
+    volumes:
+      - ./LocalFolder/db:/db
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
